@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Шаг для клонирования репозитория
-                git 'https://github.com/your/repository.git'
+                git 'https://github.com/aizatgaz/ReqresTestingFramework'
             }
         }
         stage('Build') {
